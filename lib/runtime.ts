@@ -4,7 +4,7 @@ import { invokeQA } from "./qa";
 import { synthesizeForCEO } from "./cmo";
 import type { RuntimeRequest, TraceEvent, WorkerId } from "./types";
 
-const MODEL = process.env.ICB_RUNTIME_MODEL || "openai/gpt-5.6-sol";
+const MODEL = process.env.ICB_RUNTIME_MODEL || "openai/gpt-5.2";
 
 function now() {
   return new Date().toISOString();
