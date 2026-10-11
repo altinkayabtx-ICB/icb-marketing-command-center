@@ -3,7 +3,7 @@ import { COMMON_RULES, WORKERS } from "./registry";
 import { qaSchema } from "./schemas";
 import type { RuntimeRequest } from "./types";
 
-const MODEL = process.env.ICB_RUNTIME_MODEL || "openai/gpt-5.6-sol";
+const MODEL = process.env.ICB_RUNTIME_MODEL || "openai/gpt-5.2";
 
 export async function invokeQA(
   request: RuntimeRequest,
